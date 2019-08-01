@@ -16,7 +16,7 @@
 
 class MovieSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :title, :genre, :description
+  attributes :title, :genre, :description, :created_at, :updated_at
   attribute :year, &:year
-  belongs_to :user
+  belongs_to :user, serializer: UserSerializer
 end
