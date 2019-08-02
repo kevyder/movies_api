@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: users
@@ -29,5 +31,4 @@ class UserTest < ActiveSupport::TestCase
     user.email = 'anystring.com'
     assert_not user.valid?
   end
-
 end

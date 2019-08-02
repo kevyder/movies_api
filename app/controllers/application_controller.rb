@@ -2,7 +2,7 @@
 
 class ApplicationController < ActionController::API
   include ActionController::HttpAuthentication::Token::ControllerMethods
-  
+
   def authenticate
     # HTTP authentication by token
     # key: Authorization

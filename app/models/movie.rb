@@ -14,7 +14,6 @@
 #  updated_at  :datetime         not null
 #
 
-
 class Movie < ApplicationRecord
   # User relationship
   belongs_to :user

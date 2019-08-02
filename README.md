@@ -8,6 +8,8 @@ System details:
 
 * [JSON API format](https://jsonapi.org/)
 
+* [Rubocop code standard](https://www.rubocop.org/en/stable/)
+
 
 ### HEADERS AND AUTHENTICATION
   > Content-Type: application/json

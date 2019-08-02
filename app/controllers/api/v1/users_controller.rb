@@ -9,8 +9,8 @@ module Api
           user_json = UserSerializer.new(@user).serialized_json
           render json: user_json
         else
-          render json: { errors: @user.errors }, 
-          status: :unprocessable_entity
+          render json: { errors: @user.errors },
+                 status: :unprocessable_entity
         end
       end
 
