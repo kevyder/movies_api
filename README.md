@@ -1,5 +1,9 @@
 # Movies API
 
+[![Build Status](https://travis-ci.org/kevyder/movies_api.svg?branch=master)](https://travis-ci.org/kevyder/movies_api)
+
+[![Coverage Status](https://coveralls.io/repos/github/kevyder/movies_api/badge.svg?branch=master)](https://coveralls.io/github/kevyder/movies_api?branch=master)
+
 System details:
 
 * Ruby 2.6.0
