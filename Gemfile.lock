@@ -48,10 +48,10 @@ GEM
     arel (9.0.0)
     ast (2.4.0)
     bcrypt (3.1.13)
-    bootsnap (1.4.4)
+    bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.3)
-    bullet (6.0.1)
+    bullet (6.0.2)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.11)
     byebug (11.0.1)
@@ -84,12 +84,12 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
-    msgpack (1.3.0)
-    nio4r (2.4.0)
-    nokogiri (1.10.3)
+    msgpack (1.3.1)
+    nio4r (2.5.1)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     parallel (1.17.0)
-    parser (2.6.3.0)
+    parser (2.6.4.0)
       ast (~> 2.4.0)
     puma (3.12.1)
     rack (2.0.7)
@@ -112,7 +112,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.0.4)
+    rails-html-sanitizer (1.2.0)
       loofah (~> 2.2, >= 2.2.2)
     railties (5.2.3)
       actionpack (= 5.2.3)
@@ -172,6 +172,7 @@ DEPENDENCIES
   byebug
   fast_jsonapi
   listen (>= 3.0.5, < 3.2)
+  nokogiri (>= 1.10.4)
   puma (~> 3.11)
   rack-cors
   rails (~> 5.2.3)
@@ -186,4 +187,4 @@ RUBY VERSION
    ruby 2.6.0p-1
 
 BUNDLED WITH
-   2.0.0
+   2.0.2
